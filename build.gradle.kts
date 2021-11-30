@@ -21,6 +21,7 @@ dependencies {
     implementation("io.quarkus:quarkus-resteasy-jackson")
     implementation("io.quarkus:quarkus-arc")
     implementation("org.apache.kafka:kafka-clients:3.0.0")
+    implementation("com.google.code.gson:gson:2.8.9")
     compileOnly("org.projectlombok:lombok:1.18.22")
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:rest-assured")
